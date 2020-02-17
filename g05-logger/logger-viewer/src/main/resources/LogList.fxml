@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx"
+	xmlns:fx="http://javafx.com/fxml"
+	fx:controller="ch.hslu.vsk.logger.viewer.LoggerController"
+	prefHeight="400.0" prefWidth="800.0">
+
+	<TableView fx:id="logTable" GridPane.columnIndex="4"
+		GridPane.columnSpan="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0"
+		GridPane.vgrow="ALWAYS">
+		<columnResizePolicy>
+			<TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+		</columnResizePolicy>
+		<columns>
+			<TableColumn text="Log Message" fx:id="message" />
+			<TableColumn text="Log Level" fx:id="loglevel" />
+			<TableColumn text="Log Stamp Server" fx:id="timeServerReceivedLog" />
+			<TableColumn text="Log Stamp created" fx:id="timeLogged" />
+		</columns>
+	</TableView>
+</GridPane>
