@@ -1,0 +1,39 @@
+2019-12-17T16:08:24.730206900Z | 2019-12-17T16:08:24.692308900Z;GameLogger;1;Game was created
+2019-12-17T16:08:31.905811300Z | 2019-12-17T16:08:24.694305500Z;GameLogger;2;Test LogLevel WARN
+2019-12-17T16:08:31.905811300Z | 2019-12-17T16:08:24.694305500Z;GameLogger;3;Test LogLevel ERROR
+2019-12-17T16:08:31.906837100Z | 2019-12-17T16:08:24.694305500Z;GameLogger;4;Test LogLevel FATAL
+2019-12-17T16:08:31.906837100Z | 2019-12-17T16:08:25.234005100Z;GameLogger;1;reset applet
+2019-12-17T16:08:31.908111Z | 2019-12-17T16:08:28.935104600Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:38.913741500Z | 2019-12-17T16:08:29.938172300Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:38.914540600Z | 2019-12-17T16:08:30.939561600Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:38.914777600Z | 2019-12-17T16:08:31.940983900Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:38.915947800Z | 2019-12-17T16:08:32.942321400Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:38.915947800Z | 2019-12-17T16:08:33.943556500Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:38.916738800Z | 2019-12-17T16:08:34.945251Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:45.923090200Z | 2019-12-17T16:08:35.946934700Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:45.923090200Z | 2019-12-17T16:08:36.947503800Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:45.923929800Z | 2019-12-17T16:08:37.952001100Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:45.924926Z | 2019-12-17T16:08:38.953305Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:45.924926Z | 2019-12-17T16:08:39.954007200Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:45.925928500Z | 2019-12-17T16:08:40.956022800Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:52.930832700Z | 2019-12-17T16:08:41.957289400Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:52.931829700Z | 2019-12-17T16:08:42.958169400Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:52.931829700Z | 2019-12-17T16:08:43.959879700Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:52.933041300Z | 2019-12-17T16:08:44.961900700Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:52.933825700Z | 2019-12-17T16:08:45.962830400Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:52.934823500Z | 2019-12-17T16:08:46.964566300Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:52.934823500Z | 2019-12-17T16:08:47.965557Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:59.941213900Z | 2019-12-17T16:08:48.966879300Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:59.941855300Z | 2019-12-17T16:08:49.967877200Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:59.943044200Z | 2019-12-17T16:08:50.968783400Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:59.943848100Z | 2019-12-17T16:08:51.970399200Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:59.943848100Z | 2019-12-17T16:08:52.972011400Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:59.944846400Z | 2019-12-17T16:08:53.972214800Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:08:59.944846400Z | 2019-12-17T16:08:54.972626900Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:09:06.950776900Z | 2019-12-17T16:08:55.972827100Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:09:06.951777Z | 2019-12-17T16:08:56.975771Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:09:06.952774300Z | 2019-12-17T16:08:57.977171100Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:09:06.952774300Z | 2019-12-17T16:08:58.978457100Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:09:06.953780500Z | 2019-12-17T16:08:59.979939500Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:09:06.953780500Z | 2019-12-17T16:09:00.981829500Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
+2019-12-17T16:09:06.953780500Z | 2019-12-17T16:09:01.983841Z;GameLogger;1;next Generationorg.bitstorm.gameoflife.GameOfLifeGrid@24d379b3
