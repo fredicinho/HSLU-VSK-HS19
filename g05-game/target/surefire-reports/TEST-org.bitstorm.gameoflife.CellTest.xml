@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.bitstorm.gameoflife.CellTest" time="1.015" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\freda\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M3\surefire-booter-3.0.0-M3.jar;C:\Users\freda\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M3\surefire-api-3.0.0-M3.jar;C:\Users\freda\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M3\surefire-logger-api-3.0.0-M3.jar;C:\Users\freda\g05-game\target\test-classes;C:\Users\freda\g05-game\target\classes;C:\Users\freda\.m2\repository\ch\hslu\vsk19hs\g05\g05-loggercomponent\2.0.0-SNAPSHOT\g05-loggercomponent-2.0.0-SNAPSHOT.jar;C:\Users\freda\.m2\repository\ch\hslu\vsk19hs\g05\g05-loggercommon\2.0.0-SNAPSHOT\g05-loggercommon-2.0.0-SNAPSHOT.jar;C:\Users\freda\.m2\repository\ch\hslu\vsk\stringpersistor-api\5.0.1\stringpersistor-api-5.0.1.jar;C:\Users\freda\.m2\repository\ch\hslu\vsk19hs\g05\g05-stringpersistor\1.4.0\g05-stringpersistor-1.4.0.jar;C:\Users\freda\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\freda\.m2\repository\ch\hslu\vsk19hs\loggerinterface\1.0.0\loggerinterface-1.0.0.jar;C:\Users\freda\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\freda\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\freda\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\freda\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\freda\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\freda\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\freda\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\freda\.m2\repository\org\junit-pioneer\junit-pioneer\0.3.0\junit-pioneer-0.3.0.jar;C:\Users\freda\.m2\repository\nl\jqno\equalsverifier\equalsverifier\3.1.9\equalsverifier-3.1.9.jar;C:\Users\freda\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M3\surefire-junit-platform-3.0.0-M3.jar;C:\Users\freda\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M3\common-java5-3.0.0-M3.jar;C:\Users\freda\.m2\repository\org\junit\platform\junit-platform-launcher\1.3.1\junit-platform-launcher-1.3.1.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CH"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\freda\AppData\Local\Temp\surefire10093996320210914658 2019-12-17T17-11-12_231-jvmRun1 surefire3251345328785434046tmp surefire_017942649201810578244tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\freda\g05-game\target\test-classes;C:\Users\freda\g05-game\target\classes;C:\Users\freda\.m2\repository\ch\hslu\vsk19hs\g05\g05-loggercomponent\2.0.0-SNAPSHOT\g05-loggercomponent-2.0.0-SNAPSHOT.jar;C:\Users\freda\.m2\repository\ch\hslu\vsk19hs\g05\g05-loggercommon\2.0.0-SNAPSHOT\g05-loggercommon-2.0.0-SNAPSHOT.jar;C:\Users\freda\.m2\repository\ch\hslu\vsk\stringpersistor-api\5.0.1\stringpersistor-api-5.0.1.jar;C:\Users\freda\.m2\repository\ch\hslu\vsk19hs\g05\g05-stringpersistor\1.4.0\g05-stringpersistor-1.4.0.jar;C:\Users\freda\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\freda\.m2\repository\ch\hslu\vsk19hs\loggerinterface\1.0.0\loggerinterface-1.0.0.jar;C:\Users\freda\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\freda\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\freda\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\freda\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\freda\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\freda\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\freda\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\freda\.m2\repository\org\junit-pioneer\junit-pioneer\0.3.0\junit-pioneer-0.3.0.jar;C:\Users\freda\.m2\repository\nl\jqno\equalsverifier\equalsverifier\3.1.9\equalsverifier-3.1.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\freda"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\freda\g05-game"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
+    <property name="user.name" value="freda"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="deployAtEnd" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\freda\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\freda\AppData\Local\Temp\"/>
+    <property name="installAtEnd" value="true"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="user.dir" value="C:\Users\freda\g05-game"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.4\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Paragon Software\LinuxFS for Windows\;C:\Users\freda\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\freda\AppData\Local\Programs\Python\Python36\;C:\Users\freda\AppData\Local\Microsoft\WindowsApps;C:\Users\freda\AppData\Local\Programs\Microsoft VS Code\bin;C:\jdk-11.0.2\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\Users\freda\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin;;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testToString" classname="org.bitstorm.gameoflife.CellTest" time="0.161"/>
+  <testcase name="testEquals" classname="org.bitstorm.gameoflife.CellTest" time="0.448"/>
+</testsuite>
